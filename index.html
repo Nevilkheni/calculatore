@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+   <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <table id="table" border="5">
+        <tr>
+            <td><input id="ans" type="text"></td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn" onclick="ans.value=''">C</button>
+                <button class="btn" onclick="ans.value += '%'">%</button>
+                <button class="btn" onclick="ans.value += '/'">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn1" onclick="ans.value += '7'">7</button>
+                <button class="btn1" onclick="ans.value += '8'">8</button>
+                <button class="btn1" onclick="ans.value += '9'">9</button>
+                <button class="btn1" onclick="ans.value += '*'">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn2" onclick="ans.value += '4'">4</button>
+                <button class="btn2" onclick="ans.value += '5'">5</button>
+                <button class="btn2" onclick="ans.value += '6'">6</button>
+                <button class="btn2" onclick="ans.value += '-'">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn3" onclick="ans.value += '1'">1</button>
+                <button class="btn3" onclick="ans.value += '2'">2</button>
+                <button class="btn3" onclick="ans.value += '3'">3</button>
+                <button class="btn3" onclick="ans.value += '+'">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btn4" onclick="ans.value += '0'">0</button>
+                <button class="btn4" onclick="ans.value += '00'">00</button>
+                <button class="btn4" onclick="ans.value += '.'">.</button>
+                <button class="btn4" onclick="ans.value = eval(ans.value)">=</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

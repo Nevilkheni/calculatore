@@ -1,0 +1,38 @@
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 200px 500px;
+}
+@media (max-width:400px) {
+    body{
+        
+        margin: 100px 50px;
+        width: 100%;
+        height: 100%;
+
+    }
+    
+}
+#ans{
+    background-color: cadetblue;
+    width: 200px;
+}
+
+@media (max-width:400px) {
+#ans{
+    width: 250px;
+}            
+}
+.btn{
+    margin: 5px 20px;
+}
+.btn1, .btn2, .btn3, .btn4 {
+    margin: 5px 11px;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+    margin: 5px;
+    font-size: 20px;
+}
